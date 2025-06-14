@@ -1,0 +1,64 @@
+/* AuthForm.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* keep overall background white or neutral */
+}
+
+.auth-container {
+  width: 300px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #d0f0c0; /* light green */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-container h3 {
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #27642a;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 15px;
+}

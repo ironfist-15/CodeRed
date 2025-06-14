@@ -1,0 +1,34 @@
+/* src/ArticleCard.css */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: white;
+}
+
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h4 {
+  margin: 0 0 10px 0;
+  font-size: 1em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #333;
+}
